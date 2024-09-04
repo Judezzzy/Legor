@@ -1,1 +1,25 @@
-new file Github
+import java.util.Scanner;
+
+public class text {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in); // Create a single Scanner object
+
+        System.out.println("Enter 1st Number:");
+        float number1 = scanner.nextFloat(); // Read the first number
+
+        System.out.println("Enter 2nd Number:");
+        float number2 = scanner.nextFloat(); // Read the second number
+
+        float sum = number1 + number2; // Calculate the sum
+        float min = number1 - number2;
+        float mul = number1 * number2;
+        
+
+        System.out.println("Sum is: " + sum); // Display the sum
+        System.out.println("Sum is: " + min);
+        System.out.println("Sum is: " + mul);
+    
+
+    }
+}
