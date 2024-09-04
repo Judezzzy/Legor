@@ -9,6 +9,7 @@ public class text {
         float number1 = scanner.nextFloat(); // Read the first number
 
         System.out.println("Enter 2nd Number:");
+
         float number2 = scanner.nextFloat(); // Read the second number
 
         float sum = number1 + number2; // Calculate the sum
@@ -20,6 +21,12 @@ public class text {
         System.out.println("Sum is: " + min);
         System.out.println("Sum is: " + mul);
     
+        float number2 = scanner.nextFloat();
+        
+        float sum = number1 + number2;
+
+
+        System.out.println("Sum is: " + sum);
 
     }
 }
