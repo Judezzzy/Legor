@@ -9,7 +9,11 @@ public class text {
 
         System.out.println("Enter 2nd Number:");
         float number2 = scanner.nextFloat();
+        
+        float sum = number1 + number2;
 
+
+        System.out.println("Sum is: " + sum);
 
     }
 }
